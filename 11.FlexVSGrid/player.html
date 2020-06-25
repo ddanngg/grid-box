@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/style.css">
+	<title>Flex space-between</title>
+</head>
+<body>
+	<div class="controls">
+		<button>⏯</button>
+		<button>🐢</button>
+		<button>🐇</button>
+		<div class="scrubber"></div>
+		<button>💬</button>
+		<button>🐷</button>
+	</div>
+
+	<style>
+		.controls {
+			margin: 200px 0;
+			display: flex;
+			align-items: center;
+		}
+
+		.scrubber {
+			background: #BADA55;
+			height:15px;
+			min-width: 100px;
+			border-radius: 10px;
+			flex: 1;
+		}
+	</style>
+</body>
+</html>
